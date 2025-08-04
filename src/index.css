@@ -1,0 +1,62 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-glow {
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+  }
+  
+  .energy-pulse {
+    animation: energy-pulse 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes energy-pulse {
+    0% { box-shadow: 0 0 5px rgba(34, 197, 94, 0.5); }
+    100% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.8), 0 0 30px rgba(34, 197, 94, 0.4);  }
+}
+
+/* Payment animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.payment-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Energy flow animation */
+@keyframes energy-flow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.energy-pulse {
+  animation: energy-flow 2s ease-in-out infinite;
+} 
+  
+  .charging-animation {
+    background: linear-gradient(90deg, #22c55e, #16a34a, #22c55e);
+    background-size: 200% 100%;
+    animation: charging-flow 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes charging-flow {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+}
+ 
