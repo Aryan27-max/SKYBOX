@@ -53,6 +53,7 @@ npm run dev
 npm run build
 npm run deploy  # if using gh-pages package
 
+```
 ---
 
 MADE WITH ❤ by ARYAN 
