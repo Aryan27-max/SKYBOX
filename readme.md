@@ -56,5 +56,5 @@ npm run deploy  # if using gh-pages package
 ```
 ---
 
-MADE WITH ❤ by ARYAN 
+MADE WITH ❤️ by ARYAN 
 
