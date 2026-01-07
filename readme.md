@@ -56,5 +56,13 @@ npm run deploy  # if using gh-pages package
 ```
 ---
 
-MADE WITH ❤️ by ARYAN 
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+
+# MADE WITH ❤️ by [Aryan27-max](https://github.com/Aryan27-max) 
+
 
