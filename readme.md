@@ -1,3 +1,5 @@
+# ⚡ TThis project comes under Apache license
+
 # ⚡ Sky Box Dashboard
 
 A smart hybrid EV charging web interface built for semi-urban and rural India.  
@@ -64,5 +66,6 @@ This project is licensed under the **MIT License**.
 
 
 # MADE WITH ❤️ by [Aryan27-max](https://github.com/Aryan27-max) 
+
 
 
