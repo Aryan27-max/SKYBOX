@@ -1,4 +1,4 @@
-# ⚡ This project comes under Apache license
+# ⚡ This project comes under Apache2.0 license (2004)
 
 # ⚡ Sky Box Dashboard
 
@@ -66,6 +66,7 @@ This project is licensed under the **MIT License**.
 
 
 # MADE WITH ❤️ by [Aryan27-max](https://github.com/Aryan27-max) 
+
 
 
 
