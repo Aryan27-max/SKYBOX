@@ -60,12 +60,13 @@ npm run deploy  # if using gh-pages package
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **Apache2.0 License**.
 
 ---
 
 
 # MADE WITH ❤️ by [Aryan27-max](https://github.com/Aryan27-max) 
+
 
 
 
